@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+#startDisplay {
+  text-align: center;
+}
+
+.btn {
+  background: lightslategray;
+}
+
+button {
+  background-color: lightskyblue;
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 25px;
+}
