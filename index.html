@@ -15,25 +15,22 @@
 
   <body>
     <div class="container">
-      <div class="row">
+      <div id="topBar" class="row">
         <div class="col text-left">
-          <button class="btn" id="highscorebtn" href="">View Highscores</button>
+          <button class="btn" id="highscorebtn">View Highscores</button>
         </div>
-        <div class="col text-right">
-          <div id="timer"></div>
-        </div>
-        <div class="row">
+        <div class="row" id="timer">
           Time left:
           <p class="time"></p>
           <div id="main"></div>
         </div>
       </div>
       <div class="row">
-        <h1 class="col-md-12">Coding Quiz!</h1>
+        <h1 class="col-md-12" id="header">Coding Quiz!</h1>
       </div>
       <br />
       <main>
-        <div id="startDisplay" maxwidth="800px">
+        <div id="startDisplay">
           <p>
             Answer the following code related questions. When you get an answer
             wrong, you will lose time. If you get one right, you will gain time.
@@ -41,9 +38,11 @@
           </p>
           <button class="btn" id="startButton">Start Quiz</button>
         </div>
-        <ui id="q"></ui>
+        <ul id="q"></ul>
+        <div id="answerCheckDiv"></div>
       </main>
     </div>
+
     <script src="assets/script.js"></script>
   </body>
 </html>

@@ -1,6 +1,9 @@
 h1 {
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
 
 #startDisplay {
   text-align: center;
@@ -17,4 +20,21 @@ button {
 .container {
   max-width: 800px;
   margin-top: 25px;
+}
+
+#q {
+  font-weight: bold;
+  list-style: none;
+}
+
+body {
+  text-align: center;
+}
+
+#topBar {
+  background-color: lightslategrey;
+}
+
+#timer {
+  margin-right: 100px;
 }
