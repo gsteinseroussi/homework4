@@ -99,7 +99,7 @@ function quiz() {
         quiz();
       } else {
         secondsLeft = secondsLeft - 10;
-        answerCheck.textContent = "Boooooo, wrong!!!!";
+        answerCheck.textContent = "Incorrect";
         answerCheckDiv.appendChild(answerCheck);
         console.log(score);
         quiz();
@@ -142,7 +142,7 @@ function endScreen() {
   secondsLeft = 0;
   const inputBox = document.createElement("INPUT");
   inputBox.setAttribute("type", "text");
-  inputBox.setAttribute("value", "Your name here");
+  inputBox.setAttribute("Placeholder", "Your name here");
   const submitButton = document.createElement("button");
   submitButton.innerHTML = "Submit";
   const scoreDisplay = document.createElement("p");
